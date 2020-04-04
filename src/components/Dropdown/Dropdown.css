@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* body {
+  margin: 20px;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #202020;
+  background-color: #fbfbfb;
+} */
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+.dd-wrapper {
+  display: flex;
+  min-height: 38px;
+  flex-wrap: wrap;
+}
+.dd-header {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-color: #ccc;
+  border-radius: 4ps;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.75) !important;
+}
+.dd-header-title--bold {
+  font-weight: bold;
+}
+.dd-list {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.75) !important;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+.dd-list li {
+  list-style-type: none;
+}
+button {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  font-size: 16px;
+  padding: 15px 20px 15px 20px;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  text-align: left;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+button:hover {
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #ccc;
+}
+.green {
+  background-color: rgba(126, 252, 0, 0.63);
+  font-weight: bold;
+}
